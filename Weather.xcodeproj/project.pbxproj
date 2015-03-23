@@ -405,6 +405,7 @@
 				036F984A1ABDBA05000CEFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		036F984B1ABDBA05000CEFBB /* Build configuration list for PBXNativeTarget "WeatherTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +414,7 @@
 				036F984D1ABDBA05000CEFBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
