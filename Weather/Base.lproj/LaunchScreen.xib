@@ -10,7 +10,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNJ-h9-egk">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Weather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNJ-h9-egk">
                     <rect key="frame" x="22" y="252" width="276" height="42"/>
                     <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="35"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -18,6 +18,12 @@
                 </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="DNJ-h9-egk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="9ot-Qi-rMh"/>
+                <constraint firstAttribute="bottom" secondItem="DNJ-h9-egk" secondAttribute="bottom" constant="274" id="Xdd-Mf-4An"/>
+                <constraint firstItem="DNJ-h9-egk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="252" id="eue-Ey-aFk"/>
+                <constraint firstAttribute="trailing" secondItem="DNJ-h9-egk" secondAttribute="trailing" constant="22" id="oCJ-Ef-5fV"/>
+            </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
             <point key="canvasLocation" x="548" y="455"/>
